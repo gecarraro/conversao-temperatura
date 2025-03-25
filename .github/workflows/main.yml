@@ -40,5 +40,5 @@ jobs:
           file: src/Dockerfile
           push: true
           tags: |
-            gecarraro/aula-conversao-temperatura:v1
+            gecarraro/aula-conversao-temperatura:${{github.run_number}}
             gecarraro/aula-conversao-temperatura:lastest
